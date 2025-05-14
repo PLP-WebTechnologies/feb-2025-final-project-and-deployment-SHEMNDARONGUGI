@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Your Trip | Matatu Link</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Matatu Link</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="track.html">Track Matatu</a></li>
+                <li><a href="fares.html">Fare Calculator</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Rate Your Trip</h1>
+        
+        <div class="review-system">
+            <form id="review-form">
+                <div class="form-group">
+                    <label>Select Your Recent Trip:</label>
+                    <select id="trip-select" required>
+                        <option value="">Select a trip</option>
+                        <!-- Will be populated by JavaScript -->
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Rating:</label>
+                    <div class="rating">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="review-text">Your Review:</label>
+                    <textarea id="review-text" placeholder="Share your experience..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn primary">Submit Review</button>
+            </form>
+            
+            <div class="previous-reviews">
+                <h2>Your Previous Reviews</h2>
+                <div id="reviews-list">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023  Link. Connecting You to the Ride.</p>
+    </footer>
+
+    <script src="./reviews.js"></script>
+</body>
+</html>

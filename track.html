@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Matatus | Matatu Link</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Matatu Link</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="fares.html">Fare Calculator</a></li>
+                <li><a href="reviews.html">My Reviews</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Track Matatus in Real-Time</h1>
+        
+        <div class="map-container" id="map">
+            <!-- Map will be rendered here with JavaScript -->
+        </div>
+        
+        <div class="track-controls">
+            <button id="locate-btn">Find Matatus Near Me</button>
+            <select id="route-filter">
+                <option value="">All Routes</option>
+                <option value="cbd-karen">CBD to Karen</option>
+                <option value="cbd-runda">CBD to Runda</option>
+            </select>
+        </div>
+        
+        <div class="matatu-list" id="matatu-list">
+            <h2>Available Matatus</h2>
+            <!-- Will be populated by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Matatul Link. Connecting You to the Ride.</p>
+    </footer>
+
+    <script src="./track.js"></script>
+</body>
+</html>
