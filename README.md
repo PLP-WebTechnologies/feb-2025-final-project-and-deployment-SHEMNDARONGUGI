@@ -1,25 +1,35 @@
-# Final Project and Deployment
+# Matatu Link
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+Matatu Link is a web application designed to provide real-time matatu tracking, fare estimation, and trip reviews for commuters in Kenya. The platform aims to enhance the commuting experience by offering accurate and reliable information.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## Features
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+- **Real-Time Tracking**: View matatus near your location and filter by route.
+- **Fare Calculator**: Get estimated fares for your trips based on predefined routes.
+- **Trip Reviews**: Rate and review your trips to improve service quality.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-## Tasks
+## How to Use
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+1. **Track Matatus**: Navigate to the "Track Matatu" page to view available matatus near your location. Use the route filter to narrow down results.
+2. **Calculate Fares**: Visit the "Fare Calculator" page to estimate fares for your trip. Select your starting point and destination to get results.
+3. **Rate Your Trip**: Go to the "My Reviews" page to rate and review your recent trips. View your previous reviews as well.
+4. **Get Help**: Access the "Help" page for FAQs and contact information.
 
-Good luck and happy coding! 🚀💻
+## Technologies Used
+
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling and responsive design.
+- **JavaScript**: For interactivity and dynamic content.
+
+## Deployment
+
+The project can be deployed using platforms like GitHub Pages, Netlify, or Vercel. Ensure all assets are correctly linked and paths are relative for successful deployment.
+
+## Future Enhancements
+
+- Integration with a live map API for real-time location tracking.
+- Backend support for storing and retrieving user reviews.
+- User authentication for personalized experiences.
+
+
