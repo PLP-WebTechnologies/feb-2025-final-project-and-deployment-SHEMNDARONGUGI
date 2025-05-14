@@ -24,7 +24,9 @@ Matatu Link is a web application designed to provide real-time matatu tracking, 
 
 ## Deployment
 
-The project can be deployed using platforms like GitHub Pages, Netlify, or Vercel. Ensure all assets are correctly linked and paths are relative for successful deployment.
+The project is live and can be accessed at: [Matatu Link](https://matlink.netlify.app/)
+
+The project can also be deployed using platforms like GitHub Pages, Netlify, or Vercel. Ensure all assets are correctly linked and paths are relative for successful deployment.
 
 ## Future Enhancements
 
